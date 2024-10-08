@@ -1,5 +1,6 @@
 
 /**
+ * Note: It does not matter, if this import is from `./person.js` or `./index.js`. Both result in the same type exports.
  * @param {import("./index.js").Person} person
  * @returns {string}
  */
