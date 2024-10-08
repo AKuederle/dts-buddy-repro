@@ -1,0 +1,20 @@
+{
+	"version": 3,
+	"file": "index.d.ts",
+	"names": [
+		"Person",
+		"PersonNoPrivate",
+		"formatPerson",
+		"formatPersonNoPrivate"
+	],
+	"sources": [
+		"../src/person.js",
+		"../src/format.js"
+	],
+	"sourcesContent": [
+		null,
+		null
+	],
+	"mappings": ";cAAaA,MAAMA;;;;;;;;;;;;;;;cA4BNC,eAAeA;;;;;;;;;;;;;;;;;;iBCvBfC,YAAYA;iBAWZC,qBAAqBA;ODhBrBH,MAAMA;;;;;;;;;;;;;;;OA4BNC,eAAeA",
+	"ignoreList": []
+}

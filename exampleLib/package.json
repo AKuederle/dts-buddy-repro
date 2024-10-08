@@ -1,0 +1,38 @@
+{
+  "name": "exampleLib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "generate-dts": "dts-buddy",
+    "prepublishOnly": "dts-buddy",
+    "format": "npx prettier --write .",
+    "tsc": "tsc"
+  },
+  "type": "module",
+  "types": "./types/index.d.ts",
+  "files": [
+    "src",
+    "types"
+  ],
+  "keywords": [],
+  "author": "",
+  "exports": {
+    ".": {
+      "types": "./types/index.d.ts",
+      "import": "./src/index.js"
+    },
+    "./format": {
+      "types": "./types/index.d.ts",
+      "import": "./src/format.js"
+    }
+  },
+  "dependencies": {
+  },
+  "peerDependencies": {
+  },
+  "devDependencies": {
+    "dts-buddy": "^0.5.3"
+  }
+}
